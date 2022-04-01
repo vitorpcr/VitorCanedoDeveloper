@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycbqu60sMmh7gyW6-RKWXHqDw-lhLeeKQg&usqp=CAU);
+  background-size: cover;
+    /*
+    height: 100%;
+    background-color: rgb(70, 184, 167);
+    background-color: linear-gradient(
+      22deg,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(252, 70, 107, 0.6) 100% 
+    );
+    */
+  }
+  
+.container{
+  width: 100%;
+  position: fixed;
+  padding: 25px;
+  background: linear-gradient(68.15deg, lightgrey 16.62%, #8e5d52 85.61%);
+
+
+}
+  
+.logo h1{
+  padding: 10px 20px;
+  border: 2px solid;
+  font-variant: small-caps;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-left: 20px;
+  
+    
+}
+  
+.menu a{
+  padding: 10px;
+  border-radius: 1cm;
+  float: right;
+  text-align: center;
+  background-color: grey;
+  
+  width: 80px;
+  height: 25px;
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  justify-content: center;
+    
+    
+    
+}
+  
+.menu{
+    
+  
+  padding-bottom: 70px;
+  margin-right: 100px;
+    
+    
+}
+
+img {
+  margin-left: 70px;
+  border: 10px solid grey;
+   border-radius: 1cm;
+   
+    max-width: 100%;
+    max-height: 100%;
+  }
+.imagem {
+    height: 100px;
+    width: 100px;
+}
+.inicio{
+  padding: 8cm;
+  
+}
+
+.inicio h1{
+  padding: 30px;
+ 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+
+.botoes{
+   
+  
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  
+}
+
+.botoes a{
+  
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 1cm;
+  background-color: gray;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin: 40px auto;
+  margin-right: 43px;
+}
+
+
+.botoes a:hover{
+  
+  animation-fill-mode: both;
+  animation-duration: 2s;
+  color: white;
+  animation-name: animation;
+  transform: translateX(20px);
+}
+
+@keyframes animation{
+  from{
+    opacity: 2;
+  }
+  to{
+    opacity: 0;
+
+  }
+}
+
+.menu-final{
+  background-color: black;
+  
+  padding: 60px ;
+  
+}
+
+.redes{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 50px;
+  
+ 
+}
+
+.redes h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+  
+  margin-top: 50px;
+  color: yellowgreen;
+}
+
+.redes a{
+  
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  margin: 30px;
+  display: flex;
+}
+
+
+
