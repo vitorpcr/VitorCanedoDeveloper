@@ -1,0 +1,25 @@
+html,body{
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+.extras{
+    position: absolute;
+    bottom: -500px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: lightgrey;
+}
+
+.logo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}

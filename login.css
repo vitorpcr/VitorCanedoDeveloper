@@ -1,0 +1,74 @@
+body{
+    /*
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycbqu60sMmh7gyW6-RKWXHqDw-lhLeeKQg&usqp=CAU);
+    background-size: cover;
+    */
+    background: linear-gradient(68.15deg, rgb(73, 31, 31) 16.62%, #8e5d52 85.61%);
+}
+
+.menu{
+    background-color: grey;
+    width: 50% ;
+    margin: 150px auto;
+    height: 250px ;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.titulo h1{
+    margin-bottom: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+.form{
+    margin: 20px;
+}
+
+.form input{
+    border-radius: 7px;
+    width: 300px;
+}
+
+label{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.botao{
+    padding-top:10px;
+    text-align: center;
+    
+    
+}
+
+.botao button{
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+}
+
+
+
+#menu.animar{
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animation{
+    from{
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
