@@ -3,7 +3,22 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycbqu60sMmh7gyW6-RKWXHqDw-lhLeeKQg&usqp=CAU);
     background-size: cover;
     */
-    background: linear-gradient(68.15deg, rgb(73, 31, 31) 16.62%, #8e5d52 85.61%);
+    background: linear-gradient(68.15deg, rgb(73, 31, 31) 16.62%, #8e5d52 85.61%) no-repeat;
+    animation: gradient 10s ease infinite;
+    display: flex;
+    background-size: 300% 300%;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0 50% ;
+    }
+    50%{
+        background-position: 100% 50% ;
+    }
+    100%{
+        background-position: 0 50% ;
+    }
 }
 
 .menu{
