@@ -3,7 +3,7 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycbqu60sMmh7gyW6-RKWXHqDw-lhLeeKQg&usqp=CAU);
     background-size: cover;
     */
-    background: linear-gradient(68.15deg, rgb(73, 31, 31) 16.62%, #8e5d52 85.61%) no-repeat;
+    background: linear-gradient(68.15deg, rgb(20, 18, 18) 16.62%, #8e5d52 85.61%) no-repeat;
     animation: gradient 10s ease infinite;
     display: flex;
     background-size: 300% 300%;
@@ -23,7 +23,7 @@ body{
 
 .menu{
     background-color: grey;
-    width: 50% ;
+    width: 300px;
     margin: 150px auto;
     height: 250px ;
     padding: 60px;
@@ -35,25 +35,31 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
     
 }
 
 .form{
-    margin: 20px;
+  margin-top: 15px;
+   
 }
 
 .form input{
+    display: flex;
+    justify-content: center;
     border-radius: 7px;
     width: 300px;
 }
 
 label{
     font-size: 15px;
-    font-family: sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
 }
 
 .botao{
+    margin-top: 20px;
     padding-top:10px;
     text-align: center;
     
@@ -66,24 +72,24 @@ label{
     font-size: 20px;
     text-transform: uppercase;
     background-color: yellowgreen;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
 
 #menu.animar{
-    animation-name: animation;
+    
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
 @keyframes animation{
     from{
-        transform: translateX(-30px);
-        opacity: 0;
+        
     }
     to{
-        opacity: 1;
-        transform: translateX(0);
+        
     }
 }
 
