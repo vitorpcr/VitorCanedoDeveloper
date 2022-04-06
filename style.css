@@ -5,7 +5,7 @@
 
 body{
   
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycbqu60sMmh7gyW6-RKWXHqDw-lhLeeKQg&usqp=CAU);
+  background-image: url(https://th.bing.com/th/id/R.50d7a426df53316c49d3bc8345909a9d?rik=RuVPaqVO%2bynqag&riu=http%3a%2f%2fwww.armarinhospolo.com.br%2fwp-content%2fuploads%2f2017%2f07%2fazul-fundo-site.jpg&ehk=QOzJM5zfaEjsH7wcwxBdsASudConEV7EsGTBBKMFtZs%3d&risl=&pid=ImgRaw&r=0);
   background-size: cover;
     /*
     height: 100%;
@@ -17,14 +17,14 @@ body{
     );
     */
     overflow-x: hidden;
-    overflow-y: hidden;
+    
   }
   
 .container{
   width: 100%;
   position: fixed;
   padding: 25px;
-  background: linear-gradient(68.15deg, lightgrey 16.62%, #8e5d52 85.61%);
+  background: linear-gradient(68.15deg, rgb(67, 89, 150) 16.62%, #464a5a 85.61%);
 
 
 }
@@ -50,7 +50,7 @@ body{
   border-radius: 1cm;
   float: right;
   text-align: center;
-  background-color: grey;
+  background-color: rgb(230, 201, 201);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   width: 80px;
@@ -77,7 +77,7 @@ body{
 
 img {
   margin-left: 70px;
-  border: 10px solid grey;
+  border: 10px solid rgb(241, 220, 220);
    border-radius: 1cm;
    
     max-width: 100%;
@@ -109,27 +109,38 @@ img {
   justify-content: center;
   margin: 30px auto;
   
+  
 }
 
 .botoes a{
   
   text-transform: uppercase;
   padding: 20px;
-  border-radius: 1cm;
-  background-color: gray;
+  border-radius: 0.5cm;
+  background-color: rgb(38, 92, 136);
   align-items: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   color: black;
   text-decoration: none;
   margin: 40px;
-  margin-right: 43px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+  width: 200px;
+  height: 300px;
+  
 }
+
+
+
+
 
 
 .botoes a:hover{
   
-  animation-fill-mode: both;
+  
   animation-duration: 2s;
   color: white;
   animation-name: animation;
@@ -138,7 +149,7 @@ img {
 
 @keyframes animation{
   from{
-    opacity: 2;
+    opacity: 1;
   }
   to{
     opacity: 0.5;
@@ -208,7 +219,7 @@ img {
   
   width: 100vw;
   height: 68vh;
-  background: lightseagreen;
+  background: rgb(22, 157, 202);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -241,7 +252,7 @@ img {
   border-radius: 50%;
   background-color: blue;
   margin-left: 50px;
- animation: bolas 2s ease alternate infinite;
+  animation: bolas 2s ease alternate infinite;
   animation-delay: 1s;
   
 }
@@ -268,5 +279,95 @@ img {
     
   }
   
+}
+
+.projetos-container{
+  top: 0;
+  padding: 50px;
+  background-color: rgb(133, 133, 221);
+  position: fixed;
+  width: 100%;
+  
+}
+
+.projetos-container h1{
+  margin-top: 20px;
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.circulos{
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo1{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  
+  align-items: center;
+  text-align: center;
+  animation: random 2s ease alternate infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+
+.circulo2{
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightseagreen;
+  margin-left: 50px;
+  animation: random 2s ease alternate infinite;
+  animation-delay: 1s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+}
+
+.circulo1-1{
+  padding: 20px;
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  
+  
+  
+}
+
+.circulo1-1 a{
+  text-decoration: none;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200;
+}
+
+@keyframes random{
+ to{
+   transform: rotate(30deg);
+   
+ }
+ from{
+  transform: translateY(100px);
+ }
+ from{
+   
+ }
 }
 
