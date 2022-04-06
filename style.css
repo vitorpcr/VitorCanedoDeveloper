@@ -129,7 +129,7 @@ img {
   justify-content: center;
   text-align: center;
   
-  width: 350px auto;
+  width: 200px auto;
   height: 300px;
   
 }
@@ -316,34 +316,35 @@ img {
 
 .circulo1{
   background-color: blue;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 250px;
+  height: 300px;
+  border-radius: 40px;
   justify-content: center;
-  
   align-items: center;
-  text-align: center;
-  animation: random 2s ease alternate infinite;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+ 
+  
   
 }
 
 .circulo2{
-  background-color: white;
-  width: 200px;
+  
   height: 200px;
-  border-radius: 50%;
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  border-radius: 40px;
   background-color: lightseagreen;
   margin-left: 50px;
-  animation: random 2s ease alternate infinite;
-  animation-delay: 1s;
-  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
   
 }
 
 .circulo1-1{
-  padding: 20px;
-  margin: 30px;
+  padding: 10px;
+  margin: 60px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -351,12 +352,14 @@ img {
   flex-direction: row;
   display: flex;
   align-items: center;
+  justify-content: center;
   
   
   
 }
 
 .circulo1-1 a{
+  text-align: center;
   text-decoration: none;
   font-size: 30px;
   color: aliceblue;
@@ -364,16 +367,4 @@ img {
   font-weight: 200;
 }
 
-@keyframes random{
- to{
-   transform: rotate(30deg);
-   
- }
- from{
-  transform: translateY(100px);
- }
- from{
-   
- }
-}
 
