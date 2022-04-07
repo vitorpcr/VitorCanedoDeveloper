@@ -22,26 +22,26 @@ body{
 }
 
 .menu{
-    background-color: grey;
+    background-color: rgb(221, 200, 200);
     width: 300px;
     margin: 150px auto;
-    height: 250px ;
-    padding: 60px;
+    height: 380px ;
+    padding: 75px;
     border-radius: 10px;
 }
 
 .titulo h1{
-    margin-bottom: 70px;
+    margin-bottom: 40px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     
 }
 
 .form{
-  margin-top: 15px;
+  margin-top: 17px;
    
 }
 

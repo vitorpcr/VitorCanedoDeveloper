@@ -7,6 +7,7 @@ body{
   
   background-image: url(https://th.bing.com/th/id/R.50d7a426df53316c49d3bc8345909a9d?rik=RuVPaqVO%2bynqag&riu=http%3a%2f%2fwww.armarinhospolo.com.br%2fwp-content%2fuploads%2f2017%2f07%2fazul-fundo-site.jpg&ehk=QOzJM5zfaEjsH7wcwxBdsASudConEV7EsGTBBKMFtZs%3d&risl=&pid=ImgRaw&r=0);
   background-size: cover;
+  
     /*
     height: 100%;
     background-color: rgb(70, 184, 167);
@@ -42,15 +43,15 @@ body{
   
   padding: 10px 20px;
   border: 2px solid;
-  font-variant: small-caps;
+  
   text-align: center;
   color: black;
-  font-size: 30px;
+  font-size: 35px;
   position: absolute;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
-  margin-top: 24px;
-  margin-left: 20px;
+  margin-top: 90px;
+  margin-left: 10px;
   
     
 }
@@ -85,22 +86,22 @@ body{
  
   float: right;
   display: flex;
-  justify-content: center;
+  
  
-  margin-top: 0;
-  margin-right: 100px;
+  
+  margin-right: 80px ;
   
     
     
 }
 
 img {
-  margin-left: 70px;
+  margin-left: 50px;
   border: 10px solid rgb(241, 220, 220);
-   border-radius: 1cm;
-   
-    max-width: 100%;
-    max-height: 100%;
+  border-radius: 1cm;
+  margin-top: 40px;
+  max-width: 150%;
+  max-height: 150%;
   }
 .imagem {
     height: 100px;
@@ -113,7 +114,7 @@ img {
 
 .inicio h1{
   padding: 30px;
- 
+  margin-bottom: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -121,51 +122,43 @@ img {
   text-align: center;
 }
 
-.botoes{
+.face{
+  margin-left: 100px;
+  justify-content: center;
+  display: inline-flex;
+  margin: 0;
+  margin-left: 16px;
+  padding-right: 30px;
+ 
+  
+  
+  padding: 100px;
+}
+.front{
+   background-color: aliceblue;
    
-  
-  display: flex;
-  justify-content: center;
-  margin: 30px auto;
-  
-  
-  
 }
 
-.botoes a{
-  
-  text-transform: uppercase;
-  padding: 20px;
-  border-radius: 0.5cm;
-  background-color: rgb(38, 92, 136);
-  align-items: center;
+.front h1{
+  font-size: 50px;
+  margin-top: 50px;
+  justify-content: center;
+
+
+}
+
+
+.face, .back a{
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
-  color: black;
-  text-decoration: none;
-  margin: 40px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
   
-  width: 200px auto;
-  height: 300px;
-  
-}
-
-
-
-
-
-
-.botoes a:hover{
-  
-  
-  animation-duration: 2s;
   color: white;
-  animation-name: animation;
-  transform: translateX(10px);
+  padding-top: 40px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
 }
+
 
 @keyframes animation{
   from{
@@ -220,7 +213,7 @@ img {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 25px;
   font-weight: 500;
-  
+  color: aliceblue;
   padding-bottom: 70px;
   
 }
@@ -392,6 +385,7 @@ img {
   width: 200px;
   height: 200px;
   perspective: 100;
+
 }
 
 .front, .back{
@@ -401,19 +395,22 @@ img {
   height: 300px;
   padding: 50px;
   border-radius: 30px;
-  transition: 500ms;
+  transition: 800ms;
 }
 
 .front{
-  background-color: red;
+  background-color: rgb(60, 87, 175);
   z-index: 1;
 }
 
 .back{
-  background-color: blue;
+  
+  background-color: rgb(32, 32, 82);
   transform: rotateY(-180deg);
   backface-visibility: hidden;
 }
+
+
 
 .face:hover .front{
   transform: rotateY(180deg);
