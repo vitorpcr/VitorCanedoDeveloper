@@ -112,6 +112,8 @@ img {
   
 }
 
+
+
 .inicio h1{
   padding: 30px;
   margin-bottom: 100px;
@@ -122,22 +124,27 @@ img {
   text-align: center;
 }
 
-.face{
-  margin-left: 100px;
+
+.botoes{
+  align-items: center;
   justify-content: center;
-  display: inline-flex;
-  margin: 0;
-  margin-left: 16px;
-  padding-right: 30px;
+  display: flex;
+  height: 400px;
  
-  
-  
-  padding: 100px;
 }
-.front{
-   background-color: aliceblue;
-   
+
+.face{
+  margin: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  perspective: 100;
 }
+
+ 
+
 
 .front h1{
   font-size: 50px;
@@ -301,7 +308,7 @@ img {
 .projetos-container{
   top: 0;
   padding: 50px;
-  background-color: rgb(137, 137, 236);
+  background-color: rgb(176, 176, 224);
   position: fixed;
   width: 100%;
   
@@ -380,13 +387,7 @@ img {
   font-weight: 200;
 }
 
-.face{
-  
-  width: 200px;
-  height: 200px;
-  perspective: 100;
 
-}
 
 .front, .back{
   margin-left: 100px;
