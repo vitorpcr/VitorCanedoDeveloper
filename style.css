@@ -22,8 +22,9 @@ body{
   }
   
 .container{
+  
   width: 100%;
-  position: fixed;
+ 
   
   background-color: transparent;
   /*
@@ -57,10 +58,11 @@ body{
 }
   
 .menu a{
+  
   text-align: center;
   padding: 7px;
   border-radius: 1cm;
-  float: right;
+  
   text-align: center;
   background-color:transparent;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -68,12 +70,12 @@ body{
   border: black 4px solid;
   
  
-  margin: 30px;
+  margin: 22px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
   color: black;
-  justify-content: center;
+  
     
 }
 
@@ -83,16 +85,12 @@ body{
 }
   
 .menu{
- 
+  
   float: right;
-  display: flex;
+  display:inline-flexbox;
+  margin-bottom: 90px;
+  margin-right: 43px;
   
- 
-  
-  margin-right: 80px ;
-  
-    
-    
 }
 
 img {
@@ -102,11 +100,13 @@ img {
   margin-top: 40px;
   max-width: 120%;
   max-height: 150%;
-  }
-.imagem {
-    height: 100px;
-    width: 100px;
 }
+
+.imagem {
+  height: 100px;
+  width: 100px;
+}
+
 .inicio{
   padding: 8cm;
   
@@ -126,6 +126,8 @@ img {
 
 
 .botoes{
+  padding-right: 55px;
+  
   align-items: center;
   justify-content: center;
   display: flex;
@@ -139,21 +141,23 @@ img {
   justify-content: center;
   display: flex;
   align-items: center;
-  width: 120px;
+  width: 100px;
   height: 200px;
   perspective: 100;
+  
+}
+
+.face, .front h1{
+  font-size: 40px;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
 }
 
  
 
 
-.front h1{
-  font-size: 50px;
-  margin-top: 50px;
-  justify-content: center;
-
-
-}
 
 
 .face, .back a{
@@ -257,7 +261,7 @@ img {
   height: 200px;
   border-radius: 50%;
   animation: bolas 2s ease alternate infinite;
-  animation-delay:
+  
 }
 
 .desenho1:hover{
@@ -300,7 +304,7 @@ img {
 
 @keyframes bolas{
   to{
-    transform: translateY(37px)
+    transform: translateY(37px);
     
   }
   
@@ -393,8 +397,8 @@ img {
 .front, .back{
   margin-left: 100px;
   position: absolute;
-  width: 240px;
-  height: 300px;
+  width: 170px;
+  height: 250px;
   padding: 50px;
   border-radius: 30px;
   transition: 800ms;
