@@ -24,7 +24,7 @@ body{
 .container{
   
   width: 100%;
- 
+  position: fixed;
   
   background-color: transparent;
   /*
@@ -93,7 +93,7 @@ body{
   
 }
 
-img {
+.imagem img {
   margin-left: 30px;
   border: 4px solid black;
   border-radius: 1cm;
@@ -120,7 +120,7 @@ img {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
 }
 
@@ -148,9 +148,10 @@ img {
 }
 
 .face, .front h1{
-  font-size: 40px;
+  font-size: 32px;
   justify-content: center;
-  margin-top: 40px;
+  color: wheat;
+  
   align-items: center;
   text-align: center;
 }
@@ -161,10 +162,10 @@ img {
 
 
 .face, .back a{
-  font-size: 30px;
+  font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
-  color: white;
+  color: wheat;
   padding-top: 40px;
   text-decoration: none;
   align-items: center;
@@ -223,32 +224,67 @@ img {
   
   margin: 50px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 25px;
+  
+ 
   font-weight: 500;
   color: aliceblue;
-  padding-bottom: 70px;
+  padding-bottom: 120px;
   
 }
+
+.texto-sobre{
+  float: right;
+  margin-top: 80px;
+  width: 600px;
+  height: 500px;
+  margin-right: 300px;
+  padding-bottom: 150px;
+}
+
 .sobre li{
+  
   margin: 40px;
+  font-size: 24px;
+ 
 }
 .sobre h1{
- 
+  font-size: 47px;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 50px;
   margin-bottom: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
 }
 
+.imagem-sobre img{
+  margin-top: 70px;
+  margin-left: 250px;
+  width: 630px;
+}
 
+.bolas{
+  
+  height: 80px;
+  text-align: center;
+  background-color: green;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.desenho h1{
+  background-color: aqua;
+  display: inline-block;
+  text-align: center;
+}
 
 .desenho{
   
-  width: 100vw;
-  height: 68vh;
-  background: rgb(22, 157, 202);
-  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background-color: red;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -256,9 +292,10 @@ img {
 }
 
 .desenho1{
+  
   background-color: green;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   animation: bolas 2s ease alternate infinite;
   
@@ -276,8 +313,8 @@ img {
 
 .desenho2{
   background-color: white;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: blue;
   margin-left: 50px;
@@ -287,8 +324,8 @@ img {
 }
 .desenho3{
   background-color: white;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: yellow;
   margin-left: 50px;
@@ -313,7 +350,7 @@ img {
 .projetos-container{
   top: 0;
   padding: 50px;
-  background-color: rgb(176, 176, 224);
+  background-color: transparent;
   position: fixed;
   width: 100%;
   
@@ -340,10 +377,10 @@ img {
 }
 
 .circulo1{
-  background-color: blue;
+  background-color: rgb(102, 102, 233);
   width: 250px;
-  height: 300px;
-  border-radius: 40px;
+  height: 250px;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
  
@@ -356,8 +393,8 @@ img {
   height: 200px;
   background-color: white;
   width: 250px;
-  height: 300px;
-  border-radius: 40px;
+  height: 250px;
+  border-radius: 50%;
   background-color: lightseagreen;
   margin-left: 50px;
   justify-content: center;
