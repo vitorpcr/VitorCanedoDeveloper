@@ -180,6 +180,10 @@ body{
   text-align: center;
 }
 
+.inicio-logo{
+  position: relative;
+}
+
  
 
 
@@ -267,7 +271,7 @@ body{
   margin-top: 80px;
   width: 500px;
   height: 400px;
-  margin-right: 150px;
+  margin-right: 150px ;
   padding-bottom: 150px;
 }
 
@@ -289,7 +293,7 @@ body{
 }
 
 .imagem-sobre img{
-  
+  position: relative;
   margin-left: 50px;
   width: 500px;
 }
@@ -384,7 +388,7 @@ body{
   color: rgb(63, 19, 19);
   
   margin-top: 20px;
-  font-size: 70px;
+  font-size: 55px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
   text-align: center;
