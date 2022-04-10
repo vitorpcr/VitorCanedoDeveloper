@@ -3,7 +3,7 @@ body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThycbqu60sMmh7gyW6-RKWXHqDw-lhLeeKQg&usqp=CAU);
     background-size: cover;
     */
-    background: linear-gradient(68.15deg, rgb(20, 18, 18) 16.62%, #8e5d52 85.61%) no-repeat;
+    background: linear-gradient(68.15deg, wheat 16.62%, #cf4222 85.61%) no-repeat;
     animation: gradient 10s ease infinite;
     display: flex;
     background-size: 300% 300%;
@@ -22,12 +22,12 @@ body{
 }
 
 .menu{
-    background-color: rgb(221, 200, 200);
-    width: 300px;
+    background-color: wheat;
+    width: 350px;
     margin: 150px auto;
-    height: 380px ;
+    height: 430px ;
     padding: 75px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .titulo h1{
@@ -35,7 +35,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     
 }
@@ -54,7 +54,7 @@ body{
 
 label{
     font-size: 15px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
 }
 
@@ -68,12 +68,18 @@ label{
 
 .botao button{
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 10px 30px;
     font-size: 20px;
     text-transform: uppercase;
-    background-color: yellowgreen;
-    font-weight: 500;
+    background-color: rgb(168, 197, 111);
+    font-weight: 200;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao button:hover{
+    background-color: yellow;
+    pointer-events: stroke;
+    transform: translateY(5px);
 }
 
 

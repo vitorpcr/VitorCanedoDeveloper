@@ -38,8 +38,8 @@ body{
 .background-image img{
   
   
-  width: 800px;
-  height: 800px;
+  width: 650px;
+  height: 650px;
 }
   
 .container{
@@ -115,6 +115,7 @@ body{
 }
 
 .imagem img {
+ 
   margin-left: 50px;
   border: 4px solid black;
   border-radius: 1cm;
@@ -131,11 +132,15 @@ body{
 .inicio{
   padding: 8cm;
   
+  
+  
 }
 
 
 
+
 .inicio h1{
+  
   padding: 30px;
   margin-bottom: 100px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -171,7 +176,7 @@ body{
 .face, .front h1{
   font-size: 32px;
   justify-content: center;
-  color: wheat;
+  color: white;
   
   align-items: center;
   text-align: center;
@@ -186,7 +191,7 @@ body{
   font-size: 25px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
-  color: wheat;
+  color: white;
   padding-top: 40px;
   text-decoration: none;
   align-items: center;
@@ -241,16 +246,20 @@ body{
  
   
 }
-.sobre{
-  
-  margin: 50px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
- 
-  font-weight: 500;
-  color: black;
-  padding-bottom: 120px;
-  
+
+
+
+
+
+
+.bolas, .logo-sobre{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+ position: absolute;
+
 }
 
 .texto-sobre{
@@ -273,7 +282,7 @@ body{
   text-align: center;
   padding-top: 50px;
   margin-bottom: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
 }
 
@@ -284,37 +293,38 @@ body{
 }
 
 .bolas{
-  
-  height: 80px;
-  text-align: center;
-  background-color: green;
-  display: flex;
-  
-  justify-content: center;
-  align-items: center;
+ 
+  margin: 20px 36%;
 }
 
-.desenho h1{
-  background-color: aqua;
-  display: inline-block;
+.logo-sobre{
+  margin: 20px 36%;
+ 
+  
+  
+}
+
+.logo-sobre h1{
+  font-size: 70px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
+  
 }
 
 .desenho{
   
   width: 100%;
-  height: 80px;
-  position: relative;
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  height: 140px;
+  
+  
+ 
+ 
 }
 
 .desenho1{
   
-  background-color: green;
+  background-color: rgb(170, 131, 131);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -322,42 +332,31 @@ body{
   
 }
 
-.desenho1:hover{
-   background-color: black;
-   
-   
-}
-.desenho2:hover{
-  background-color: white;
-  
-}
+
 
 .desenho2{
-  background-color: white;
+  
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgb(148, 148, 199);
   margin-left: 50px;
   animation: bolas 2s ease alternate infinite;
   animation-delay: 1s;
   
 }
 .desenho3{
-  background-color: white;
+ 
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: rgb(160, 160, 129);
   margin-left: 50px;
   animation: bolas 2s ease alternate infinite;
   animation-delay: 2s;
   
 }
-.desenho3:hover{
-  background-color: lightgrey;
-  
-}
+
 
 
 @keyframes bolas{
@@ -378,11 +377,12 @@ body{
 }
 
 .projetos-container h1{
-  color: white;
+  
+  color: rgb(63, 19, 19);
   
   margin-top: 20px;
   font-size: 70px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 200;
   text-align: center;
 }
@@ -446,9 +446,16 @@ body{
   text-decoration: none;
   font-size: 30px;
   color: aliceblue;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 200;
 }
+
+.circulo1-1 img{
+  display: flex;
+  width: 100px;
+}
+
+
 
 
 
@@ -463,7 +470,7 @@ body{
 }
 
 .front{
-  background-color: rgb(60, 87, 175);
+  background-color: rgb(98, 116, 182);
   z-index: 1;
 }
 
