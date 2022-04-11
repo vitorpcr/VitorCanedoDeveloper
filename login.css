@@ -22,9 +22,10 @@ body{
 }
 
 .menu{
+    margin-top: 150px;
     background-color: wheat;
     width: 350px;
-    margin: 150px auto;
+    margin-left: 700px;
     height: 430px ;
     padding: 75px;
     border-radius: 20px;
@@ -66,7 +67,7 @@ label{
     
 }
 
-.botao button{
+.botao input{
     border-radius: 10px;
     padding: 10px 30px;
     font-size: 20px;
