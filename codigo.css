@@ -4,7 +4,21 @@ html,body{
     overflow-x: hidden;
 }
 
+.texto-codigo{
+    position: absolute;
+    
+    margin-right: 150px;
+    height: 300px;
+    width: 100%;
+}
 
+.texto-codigo p{
+    font-size: 20px;
+    text-align: center;
+    margin:   50px 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 
 .extras{
     position: absolute;
