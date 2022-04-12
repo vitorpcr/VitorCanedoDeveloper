@@ -22,14 +22,17 @@ body{
 }
 
 .menu{
-    margin-top: 150px;
-    background-color: wheat;
-    width: 350px;
-    margin-left: 700px;
-    height: 430px ;
-    padding: 75px;
-    border-radius: 20px;
+  margin-left: 450px;
+  margin-top: 40px;
+  background-color: wheat;
+  width: 370px;
+    
+  height: 430px ;
+  padding: 50px;
+  border-radius: 20px;
 }
+
+
 
 .titulo h1{
     margin-bottom: 40px;
@@ -42,11 +45,13 @@ body{
 }
 
 .form{
-  margin-top: 17px;
+  
+  margin: 17px;
    
 }
 
 .form input{
+  align-itens: center;
     display: flex;
     justify-content: center;
     border-radius: 7px;
