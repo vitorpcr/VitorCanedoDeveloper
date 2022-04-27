@@ -47,18 +47,20 @@ body{
   width: 100%;
   
   
-  background-color: transparent;
+  background-color: green;
   /*
   background: linear-gradient(68.15deg, rgb(67, 89, 150) 16.62%, #464a5a 85.61%);
   */
-  background-color: transparent;
+
 
 }
 
 .logo{
-  margin-top: 20px;
+  margin-top: 40px;
+  width: 250px;
+  height: 160px;
   margin-left: 140px;
-  
+  background-color: red;
 }
   
 .logo h1{
@@ -79,7 +81,8 @@ body{
 }
   
 .menu a{
-  
+ 
+ 
   text-align: center;
   padding: 5px;
   border-radius: 1cm;
@@ -106,12 +109,14 @@ body{
 }
   
 .menu{
-
+  text-align: center;
+  margin: auto;
+  background-color: yellow;
+  width: 600px;
+  display: flex;
   
-  float: right;
-  display: inline-flexbox;
-  margin-bottom: 100px;
-  margin-right: 43px;
+ 
+  
   
 }
 
