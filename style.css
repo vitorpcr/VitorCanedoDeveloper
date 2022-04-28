@@ -4,7 +4,7 @@
 }
 
 body{
-
+ 
   background-color: wheat;
   /*
   background-image: (https://th.bing.com/th/id/R.50d7a426df53316c49d3bc8345909a9d?rik=RuVPaqVO%2bynqag&riu=http%3a%2f%2fwww.armarinhospolo.com.br%2fwp-content%2fuploads%2f2017%2f07%2fazul-fundo-site.jpg&ehk=QOzJM5zfaEjsH7wcwxBdsASudConEV7EsGTBBKMFtZs%3d&risl=&pid=ImgRaw&r=0);
@@ -20,7 +20,7 @@ body{
       rgba(252, 70, 107, 0.6) 100% 
     );
     */
-    overflow-x: hidden;
+    
     
 }
 
@@ -43,11 +43,15 @@ body{
 }
   
 .container{
+  
+  margin: auto;
+  border-radius: 20px;
   position: fixed;
   width: 100%;
+  display: flex;
   
+  min-width: 500px;
   
-  background-color: green;
   /*
   background: linear-gradient(68.15deg, rgb(67, 89, 150) 16.62%, #464a5a 85.61%);
   */
@@ -56,11 +60,11 @@ body{
 }
 
 .logo{
-  margin-top: 40px;
+  margin-top: 20px;
   width: 250px;
   height: 160px;
   margin-left: 140px;
-  background-color: red;
+  margin-bottom: 30px;
 }
   
 .logo h1{
@@ -111,9 +115,12 @@ body{
 .menu{
   text-align: center;
   margin: auto;
-  background-color: yellow;
+  
   width: 600px;
+  
   display: flex;
+  margin-right: 70px;
+ 
   
  
   
