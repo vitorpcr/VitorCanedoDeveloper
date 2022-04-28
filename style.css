@@ -4,7 +4,8 @@
 }
 
 body{
- 
+  width: 90%;
+  min-width: 980px;
   background-color: wheat;
   /*
   background-image: (https://th.bing.com/th/id/R.50d7a426df53316c49d3bc8345909a9d?rik=RuVPaqVO%2bynqag&riu=http%3a%2f%2fwww.armarinhospolo.com.br%2fwp-content%2fuploads%2f2017%2f07%2fazul-fundo-site.jpg&ehk=QOzJM5zfaEjsH7wcwxBdsASudConEV7EsGTBBKMFtZs%3d&risl=&pid=ImgRaw&r=0);
@@ -47,10 +48,9 @@ body{
   margin: auto;
   border-radius: 20px;
   position: fixed;
-  width: 100%;
+  width: 90%;
+  min-width: 980px;
   display: flex;
-  
-  min-width: 500px;
   
   /*
   background: linear-gradient(68.15deg, rgb(67, 89, 150) 16.62%, #464a5a 85.61%);
@@ -59,12 +59,17 @@ body{
 
 }
 
+.container-2{
+  display: flex;
+  width: 800px;
+  margin: auto;
+}
+
 .logo{
-  margin-top: 20px;
+  margin: auto;
   width: 250px;
   height: 160px;
-  margin-left: 140px;
-  margin-bottom: 30px;
+ 
 }
   
 .logo h1{
@@ -119,7 +124,7 @@ body{
   width: 600px;
   
   display: flex;
-  margin-right: 70px;
+  margin: auto;
  
   
  
@@ -144,6 +149,8 @@ body{
 
 .inicio{
   padding: 8cm;
+  width: 90%;
+  min-width: 980px;
   
 }
 
@@ -510,4 +517,12 @@ body{
 .face:hover .back{
   transform: rotateY(0);
   z-index: 2;
+}
+
+
+@media (max-width: 1100px){
+  html{
+    font-size: 20px;
+  }
+  
 }
