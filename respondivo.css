@@ -42,13 +42,18 @@ html{
 }   
 
 .inicio{
+    width: 100%;
     background-color: grey;
-    height: 100vh;
+    
+    max-width: 880px;
+    
+    
     
 }
 
 .cards{
     width: 90%;
+   
     height: 400px;
     padding: 20px;
     background-color: wheat;
@@ -71,7 +76,7 @@ html{
 
 h2{
     margin-top: 50px;
-    text-align: center;
+    
 }
 
 .imagem-inicio{
@@ -80,3 +85,21 @@ h2{
     
     background-color: brown;
 }
+
+@media (max-width: 768px){
+    html{
+        font-size: 60%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .inicio, .cards{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+}
+
