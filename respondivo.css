@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+
+.container{
+    background-color: blue;
+    padding: 10px;
+
+}
+.container-1{
+    margin: auto;
+    width: 90%;
+    max-width: 980px;
+    background-color: red;
+    display: flex;
+    height: 100px;
+}
+
+
+
+.logo{
+    margin: auto;
+    width: 150px;
+    height: 80px;
+    background-color: green;
+}
+
+.menu{
+    margin: auto;
+    background-color: aliceblue;
+}
+
+.menu a{
+    margin: 15px;
+
+}   
+
+.inicio{
+    background-color: grey;
+    height: 100vh;
+    
+}
+
+.cards{
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+    background-color: wheat;
+    display: flex;
+    
+}
+
+.texto{
+    background-color: yellow;
+    width: 500px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+
+.inicio, .cards{
+   padding: 60px;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.imagem-inicio{
+    width: 500px;
+    
+    
+    background-color: brown;
+}
