@@ -21,7 +21,7 @@ img{
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: blue;
+    background-color: aquamarine;
     max-width: 1200px;
     min-width: 250px;
    
@@ -32,25 +32,35 @@ img{
     
     margin: auto;
     width: 100%;
-    background-color: red;
+    
     display: flex;
     height: 100px;
 }
 
 
+nav {
+    
+    background-color: red;
+  
+    display: flex;
+}
 
+.menu-section{
+    background-color: red;
+    display: flex;
+}
 
 
 .logo{
     margin: auto;
     width: 150px;
     height: 80px;
-    background-color: green;
+    
 }
 
 .menu{
     margin: auto;
-    background-color: aliceblue;
+    
 }
 
 .menu a{
@@ -64,7 +74,7 @@ img{
   margin: auto;
   max-width: 1400px;
   min-width: 250px;
-  background-color: grey;
+  background-color: wheat;
   height: 100vh;
     
 }
@@ -74,8 +84,8 @@ img{
     padding: 20px;
     margin: auto;
 
-   max-width: 250px;
-   background-color: rgb(16, 86, 99);
+   
+  
 
     
 }
@@ -91,7 +101,7 @@ img{
 
 
 .texto{
-    background-color: yellow;
+   
     width: 600px;
     min-width: 250px;
     
@@ -99,10 +109,18 @@ img{
     font-size: 1rem;
 }
 
+.texto h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
 .texto, .imagem-inicio{
     margin: auto;
     max-width: 250px;
-    max-height: 200px;
+    max-height: 400px;
+    font-size: 12px;
+    margin-right: 25px;
 }
 
 h2{
@@ -113,33 +131,66 @@ h2{
 .imagem-inicio{
     width: 600px;
     min-width: 250px;
-    background-color: brown;
+    
 }
 
 @media (max-width: 768px){
     .inicio, .cards{
-        font-size: 20px;
+        font-size: 20%;
         flex-direction: column;
         text-align: center;
     }
     .html{
         font-size: 20px;
     }
+    .texto, .imagem-inicio{
+        margin-top: 20px;
+    }
+    
 }
 
 @media (max-width: 600px){
    html{
        font-size: 50%;
    }
-    
+   .texto, .imagem-inicio{
+    margin-top: 20px;
+    }
+
 
 }
 
-@media (max-width: 450px){
-    .inicio{
-        background-color: aliceblue;
+@media (max-width: 540px){
+    .nav{
+        display: none;
     }
-     
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .one,
+    .two,
+    .three{
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+
+    .menu-section.on{
+
+    }
+}
+
+@media (max-width: 450px){
+    
+    .texto, .imagem-inicio{
+        margin-top: 20px;
+    }
+    
  
 }
 
