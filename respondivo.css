@@ -6,7 +6,7 @@
 
 html{
     
- background-color: black;
+ background-color: transparent;
   font-size: 62,5%;
   
 }
@@ -35,7 +35,7 @@ img{
     
     margin: auto;
     width: 100%;
-    background-color: green;
+   
     display: flex;
     height: 100px;
 }
@@ -51,12 +51,12 @@ nav ul li a{
 nav ul{
     
     margin: 40px;
-    background-color: yellow;
+ 
     display: flex;
 }
 
 .menu-section{
-    background-color: red;
+   
     
     
 }
@@ -64,7 +64,7 @@ nav ul{
 
 
 .logo{
-    background-color: blue;
+    
     margin: auto;
     width: 150px;
     height: 80px;
@@ -210,7 +210,7 @@ h2{
 
 
 .container2{
-    background-color: rgb(137, 178, 214);
+    background-color: wheat;
     margin: auto;
     max-width: 1300px;
    
@@ -221,6 +221,15 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.card-03 h1, .card-02 h1, .card-01 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 35px;
+    text-transform: uppercase;
 }
 
 .card-01{
